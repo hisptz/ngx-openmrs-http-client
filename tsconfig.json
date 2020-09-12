@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-openmrs-httpclient-service": [
+        "dist/ngx-openmrs-httpclient-service/ngx-openmrs-httpclient-service",
+        "dist/ngx-openmrs-httpclient-service"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
